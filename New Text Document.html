@@ -1,15 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Car Rental System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hansika's Premium Car Rental</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 350px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #3498db;
+            color: white;
+            margin: 10px 0;
+            padding: 12px;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        li:hover {
+            transform: scale(1.05);
+            background: #2980b9;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #7f8c8d;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Hansika's Car Rental</h1>
-    <p>Select your favorite car for rent:</p>
+
+<div class="container">
+    <h1>🚗 Hansika Rentals</h1>
+    <p>Premium cars for your journey</p>
     <ul>
-        <li>Toyota Prius</li>
-        <li>Honda Vezel</li>
-        <li>Suzuki Wagon R</li>
+        <li>Toyota Prius - Luxury</li>
+        <li>Honda Vezel - SUV</li>
+        <li>Suzuki Wagon R - Budget</li>
     </ul>
+    <div class="footer">Created by Hansika for PAF Lab 02</div>
+</div>
+
 </body>
 </html>
